@@ -1,9 +1,10 @@
 # AVR HIDTemp
 
 HIDTemp is implementation of USB temperature sensor device
-with AVR ATtiny45/85 microcontroller based on vusb.
+with AVR ATtiny45/85 microcontroller based on V-USB.
 
-- [vusb] (http://www.obdev.at/products/vusb/index.html)
+- [V-USB](http://www.obdev.at/products/vusb/index.html) is a software-only
+implementation of a low-speed USB device for AVR microcontrollers.
 
 # Building and Flashing HIDTemp
 
@@ -11,11 +12,11 @@ with AVR ATtiny45/85 microcontroller based on vusb.
 - avr-gcc
 - avrdude
 - usbasp
-- AVRstick [sparkfun](http://www.sparkfun.com/products/9147)
+- AVRstick from [sparkfun](http://www.sparkfun.com/products/9147)
 
 ## Building
     $ cd hidtemp/firmware
     $ make 
 
-## Flasing
+## Flashing
     $ make flash

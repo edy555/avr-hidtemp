@@ -3,8 +3,7 @@
 HIDTemp is implementation of USB temperature sensor device
 with AVR ATtiny45/85 microcontroller based on V-USB.
 
-- [V-USB](http://www.obdev.at/products/vusb/index.html) is a software-only
-implementation of a low-speed USB device for AVR microcontrollers.
+- V-USB is a software-only implementation of a low-speed USB device for AVR microcontrollers. See http://www.obdev.at/products/vusb/index.html
 
 # Building and Flashing HIDTemp
 
